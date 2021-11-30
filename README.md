@@ -16,5 +16,5 @@ terraform apply -var='queue_names=["queue1", "queue2", "queue3"]'
 
 I used the same repo to keep the python script to retrive list of sqs queues and its count. The below command will be help to run the python script to retrive the appropriate results.
 
-python queue_count.py queue1 queue2
+python sqs_queues.py queue1 queue2 queue3
 
